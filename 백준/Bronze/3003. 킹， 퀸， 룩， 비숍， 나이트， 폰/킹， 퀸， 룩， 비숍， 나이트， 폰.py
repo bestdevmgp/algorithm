@@ -1,0 +1,8 @@
+l = list(map(int, input().split()))
+r1 = (1 - l[0])
+r2 = (1 - l[1])
+r3 = (2 - l[2])
+r4 = (2 - l[3])
+r5 = (2 - l[4])
+r6 = (8 - l[5])
+print(r1, r2, r3, r4, r5, r6)
