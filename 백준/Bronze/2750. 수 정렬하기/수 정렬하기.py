@@ -1,8 +1,8 @@
 n = int(input())
 l = []
 for i in range(n):
-    num = int(input())
-    l.append(num)
+    l.append(int(input()))
+
 l.sort()
-for i in range(len(l)):
+for i in range(n):
     print(l[i])
